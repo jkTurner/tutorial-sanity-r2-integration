@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.nextImage {
+  object-fit: cover;
+  overflow: hidden;
+  overflow-clip-margin: unset;
+}
